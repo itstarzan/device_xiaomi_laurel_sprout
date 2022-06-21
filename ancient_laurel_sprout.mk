@@ -43,12 +43,6 @@ EXTRA_UDFPS_ANIMATIONS := true
 
 BUILD_FINGERPRINT := google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys
 
-PRODUCT_PACKAGES += \
-    RemovePackages
-#    GalleryGo2
-#    FirefoxLite \
-#    GCamGo
-    
 # Official-ify
 ANCIENT_OFFICIAL := true
 FORCE_OTA := true
