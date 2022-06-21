@@ -319,7 +319,6 @@ PRODUCT_PACKAGES += \
 # HIDL VNDK
 $(foreach target, $(shell cat $(LOCAL_PATH)/vndk/vndk.txt), $(eval PRODUCT_PACKAGES += $(target).vendor))
 
-PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
 
 # Insmod files
 PRODUCT_COPY_FILES += \
